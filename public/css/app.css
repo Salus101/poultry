@@ -1,0 +1,122 @@
+/* app.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #3c4843;
+    color: #000000;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav {
+    flex: 1;
+    justify-content: center;
+}
+
+header .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+header .nav-link:hover {
+    color: #cde674;
+}
+
+header .btn-outline-light {
+    color: #000000; 
+    border-color: #000000;
+}
+
+header .btn-outline-light:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    font-size: 1.25rem; /* Adjust size as needed */
+    color: #f8f8f8; /* Icon color */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('/bg2.jpg') no-repeat center center;
+    background-size: cover; 
+    color: #ffffff;
+    padding: 40px 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh; 
+    display: flex;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    padding: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin-left: 16%;
+    border-radius: 8px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+}
+
+.hero-content .btn {
+    font-size: 1.125rem;
+    padding: 10px 20px;
+}
+
+/* Features Section */
+.features-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.features-section .row > div {
+    padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #3c4843;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
