@@ -17,12 +17,13 @@
                 <img src="{{ asset('logo.jpg') }}" alt="Poultry Logo" height="40">
             </a>
             <ul class="nav">
-                <li><a href="#" class="nav-link px-2">Home</a></li>
-                <li><a href="#" class="nav-link px-2">Features</a></li>
-                <li><a href="#" class="nav-link px-2">Pricing</a></li>
-                <li><a href="#" class="nav-link px-2">Contact</a></li>
-            </ul>
-            
+    <li><a href="#home" class="nav-link px-2">Home</a></li>
+    <li><a href="#features" class="nav-link px-2">Features</a></li>
+    <li><a href="#features" class="nav-link px-2">Pricing</a></li>
+    <li><a href="#footer" class="nav-link px-2">Contact</a></li>
+</ul>
+
+
             <div class="social-icons">
     <a href="https://facebook.com" class="mx-2" title="Facebook">
         <i class="fab fa-facebook-f"></i>
@@ -42,7 +43,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-section">
+    <section id="home" class="hero-section">
         <div class="container">
             <div class="hero-content">
                 <h1 class="display-4">Manage Your Poultry Farm with Ease</h1>
@@ -53,7 +54,7 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features-section">
+    <section id="features" class="features-section">
     <div class="container">
         <div class="row text-center">
             <div class="col-md-4">
@@ -76,16 +77,14 @@
 </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer id="footer" class="footer">
     <div class="container">
         <div class="row">
-            <!-- Company Info -->
             <div class="col-md-4 mb-4">
                 <h5>About Poultry Management System</h5>
                 <p>We provide comprehensive tools to manage, track, and optimize your poultry operations, ensuring that your farm runs efficiently and profitably.</p>
             </div>
 
-            <!-- Contact Info -->
             <div class="col-md-4 mb-4">
                 <h5>Contact Us</h5>
                 <p><i class="fas fa-envelope"></i> mypoultryemail.com</p>
@@ -93,7 +92,6 @@
                 <p><i class="fas fa-map-marker-alt"></i> Poultry Farm Nairobi, Kenya</p>
             </div>
 
-            <!-- Newsletter Signup -->
             <div class="col-md-4 mb-4">
                 <h5>Subscribe to Our Newsletter</h5>
                 <form class="d-inline-block mt-3">
@@ -104,8 +102,6 @@
                 </form>
             </div>
         </div>
-
-        <!-- Copyright -->
         <div class="mt-4">
             <p>&copy; 2024 Poultry Management System. All rights reserved.</p>
         </div>
