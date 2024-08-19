@@ -22,20 +22,22 @@
                 <li><a href="#" class="nav-link px-2">Pricing</a></li>
                 <li><a href="#" class="nav-link px-2">Contact</a></li>
             </ul>
+            
             <div class="social-icons">
-                <a href="https://facebook.com" class="text-black mx-2" title="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://twitter.com" class="text-black mx-2" title="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://linkedin.com" class="text-black mx-2" title="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://instagram.com" class="text-black mx-2" title="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
+    <a href="https://facebook.com" class="mx-2" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://twitter.com" class="mx-2" title="Twitter">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://linkedin.com" class="mx-2" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://instagram.com" class="mx-2" title="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+
         </div>
     </header>
 
@@ -75,19 +77,41 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>Contact us: +1 234 567 890 | info@poultrysystem.com</p>
-            <p>Follow us on: 
-                <a href="#" class="text-white ms-2">Facebook</a> | 
-                <a href="#" class="text-white ms-2">Twitter</a> | 
-                <a href="#" class="text-white ms-2">LinkedIn</a>
-            </p>
-            <form class="d-inline-block mt-3">
-                <input type="email" class="form-control" placeholder="Enter your email">
-                <button type="submit" class="btn btn-primary mt-2">Subscribe</button>
-            </form>
+    <div class="container">
+        <div class="row">
+            <!-- Company Info -->
+            <div class="col-md-4 mb-4">
+                <h5>About Poultry Management System</h5>
+                <p>We provide comprehensive tools to manage, track, and optimize your poultry operations, ensuring that your farm runs efficiently and profitably.</p>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-md-4 mb-4">
+                <h5>Contact Us</h5>
+                <p><i class="fas fa-envelope"></i> mypoultryemail.com</p>
+                <p><i class="fas fa-phone"></i> +254711111111 </p>
+                <p><i class="fas fa-map-marker-alt"></i> Poultry Farm Nairobi, Kenya</p>
+            </div>
+
+            <!-- Newsletter Signup -->
+            <div class="col-md-4 mb-4">
+                <h5>Subscribe to Our Newsletter</h5>
+                <form class="d-inline-block mt-3">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </footer>
+
+        <!-- Copyright -->
+        <div class="mt-4">
+            <p>&copy; 2024 Poultry Management System. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
 
 </body>
 </html>
