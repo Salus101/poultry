@@ -17,7 +17,20 @@
             <span><i class="fas fa-phone"></i> 0711110000 </span>
             <span><i class="fas fa-envelope"></i> info@poultrysystem.com</span>
         </div>
-      
+        <div class="social-icons">
+            <a href="https://facebook.com" class="mx-2" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" class="mx-2" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://linkedin.com" class="mx-2" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://instagram.com" class="mx-2" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
     </div>
 </header>
 
@@ -33,20 +46,6 @@
             <li><a href="#pricing" class="nav-link px-2">Pricing</a></li>
             <li><a href="#footer" class="nav-link px-2">Contact</a></li>
         </ul>
-        <div class="social-icons">
-            <a href="https://facebook.com" class="mx-2" title="Facebook">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://twitter.com" class="mx-2" title="Twitter">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://linkedin.com" class="mx-2" title="LinkedIn">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://instagram.com" class="mx-2" title="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
     </div>
 </header>
 
