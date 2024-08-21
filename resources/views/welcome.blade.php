@@ -9,38 +9,47 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Header -->
-    <header>
-        <div class="container d-flex align-items-center justify-content-between">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-black text-decoration-none">
-                <img src="{{ asset('logo.jpg') }}" alt="Poultry Logo" height="40">
-            </a>
-            <ul class="nav">
-    <li><a href="#home" class="nav-link px-2">Home</a></li>
-    <li><a href="#features" class="nav-link px-2">Features</a></li>
-    <li><a href="#features" class="nav-link px-2">Pricing</a></li>
-    <li><a href="#footer" class="nav-link px-2">Contact</a></li>
-</ul>
-
-
-            <div class="social-icons">
-    <a href="https://facebook.com" class="mx-2" title="Facebook">
-        <i class="fab fa-facebook-f"></i>
-    </a>
-    <a href="https://twitter.com" class="mx-2" title="Twitter">
-        <i class="fab fa-twitter"></i>
-    </a>
-    <a href="https://linkedin.com" class="mx-2" title="LinkedIn">
-        <i class="fab fa-linkedin-in"></i>
-    </a>
-    <a href="https://instagram.com" class="mx-2" title="Instagram">
-        <i class="fab fa-instagram"></i>
-    </a>
-</div>
-
+<!-- Top Header for Contact Information -->
+<header class="top-header">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="contact-info">
+            <span><i class="fas fa-map-marker-alt"></i>Poultry Farm Nairobi, Kenya</span>
+            <span><i class="fas fa-phone"></i> 0711110000 </span>
+            <span><i class="fas fa-envelope"></i> info@poultrysystem.com</span>
         </div>
-    </header>
+      
+    </div>
+</header>
+
+<!-- Main Header for Navigation -->
+<header class="main-header">
+    <div class="container d-flex align-items-center justify-content-between">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-black text-decoration-none">
+            <img src="{{ asset('logo.png') }}" alt="Poultry Logo" height="40">
+        </a>
+        <ul class="nav">
+            <li><a href="#home" class="nav-link px-2">Home</a></li>
+            <li><a href="#features" class="nav-link px-2">Features</a></li>
+            <li><a href="#pricing" class="nav-link px-2">Pricing</a></li>
+            <li><a href="#footer" class="nav-link px-2">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://facebook.com" class="mx-2" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" class="mx-2" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://linkedin.com" class="mx-2" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://instagram.com" class="mx-2" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</header>
+
 
     <!-- Hero Section -->
     <section id="home" class="hero-section">
